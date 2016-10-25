@@ -1,0 +1,132 @@
+{
+  "name": "top-traffic-sources-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:source,ga:hasSocialSourceReferral",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Traffic Sources (30 Days)",
+    "description": "Last 30 days' Traffic Sources, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "source": "google",
+      "has_social_referral": "No",
+      "visits": "34",
+      "pageviews": "45",
+      "users": "33",
+      "pageviews_per_session": "1.3235294117647058",
+      "avg_session_duration": "65.88235294117646",
+      "exits": "34"
+    },
+    {
+      "source": "(direct)",
+      "has_social_referral": "No",
+      "visits": "18",
+      "pageviews": "20",
+      "users": "16",
+      "pageviews_per_session": "1.1111111111111112",
+      "avg_session_duration": "17.27777777777778",
+      "exits": "18"
+    },
+    {
+      "source": "directorsblog.nih.gov",
+      "has_social_referral": "No",
+      "visits": "15",
+      "pageviews": "16",
+      "users": "14",
+      "pageviews_per_session": "1.0666666666666667",
+      "avg_session_duration": "9.8",
+      "exits": "15"
+    },
+    {
+      "source": "diginomica.com",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "2",
+      "users": "1",
+      "pageviews_per_session": "2.0",
+      "avg_session_duration": "19.0",
+      "exits": "1"
+    },
+    {
+      "source": "facebook.com",
+      "has_social_referral": "Yes",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "source": "federalnewsradio.com",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "7",
+      "users": "1",
+      "pageviews_per_session": "7.0",
+      "avg_session_duration": "20.0",
+      "exits": "1"
+    },
+    {
+      "source": "r.duckduckgo.com",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "source": "robingupta.com",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "source": "timer4web.com",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "source": "yahoo",
+      "has_social_referral": "No",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    }
+  ],
+  "totals": {
+    "visits": 74
+  },
+  "taken_at": "2016-10-17T16:11:27.593Z"
+}

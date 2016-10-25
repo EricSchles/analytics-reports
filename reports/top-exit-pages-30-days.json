@@ -1,0 +1,131 @@
+{
+  "name": "top-exit-pages-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:exitPagePath",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Exit Pages (30 Days)",
+    "description": "Last 30 days' Exit page paths, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "exit_page": "/post/80066867648/hello-world-we-are-18f",
+      "visits": "42",
+      "pageviews": "45",
+      "users": "40",
+      "pageviews_per_session": "1.0714285714285714",
+      "avg_session_duration": "39.642857142857146",
+      "exits": "42"
+    },
+    {
+      "exit_page": "/",
+      "visits": "18",
+      "pageviews": "26",
+      "users": "17",
+      "pageviews_per_session": "1.4444444444444444",
+      "avg_session_duration": "33.833333333333336",
+      "exits": "18"
+    },
+    {
+      "exit_page": "/post/85434416767/18f-shows-what-is-possible-in-government-with",
+      "visits": "5",
+      "pageviews": "6",
+      "users": "4",
+      "pageviews_per_session": "1.2",
+      "avg_session_duration": "50.6",
+      "exits": "5"
+    },
+    {
+      "exit_page": "/post/85232393363/a-few-notes-on-notalonegov",
+      "visits": "2",
+      "pageviews": "3",
+      "users": "2",
+      "pageviews_per_session": "1.5",
+      "avg_session_duration": "29.0",
+      "exits": "2"
+    },
+    {
+      "exit_page": "/page/3",
+      "visits": "1",
+      "pageviews": "7",
+      "users": "1",
+      "pageviews_per_session": "7.0",
+      "avg_session_duration": "20.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/post/81293178801/announcing-fbopen-government-opportunities-made",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/post/93226835135/18f-an-open-source-team",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/post/93415834296/working-in-public-from-day-1",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/post/94543290971/the-contributors-guide-to-18f-code-for-the",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/post/97827848353/getting-to-work-for-the-american-people",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "exit_page": "/tagged/18f",
+      "visits": "1",
+      "pageviews": "3",
+      "users": "1",
+      "pageviews_per_session": "3.0",
+      "avg_session_duration": "132.0",
+      "exits": "1"
+    }
+  ],
+  "totals": {
+    "visits": 74
+  },
+  "taken_at": "2016-10-17T16:11:28.210Z"
+}

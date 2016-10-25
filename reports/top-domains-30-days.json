@@ -1,0 +1,41 @@
+{
+  "name": "top-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (30 Days)",
+    "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "18fblog.tumblr.com",
+      "visits": "74",
+      "pageviews": "95",
+      "users": "70",
+      "pageviews_per_session": "1.2837837837837838",
+      "avg_session_duration": "36.986486486486484",
+      "exits": "74"
+    }
+  ],
+  "totals": {
+    "visits": 74
+  },
+  "taken_at": "2016-10-17T16:11:26.965Z"
+}

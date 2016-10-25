@@ -1,0 +1,113 @@
+{
+  "name": "top-landing-pages-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:landingPagePath",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Landing Pages (30 Days)",
+    "description": "Last 30 days' Landing Pages, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "landing_page": "/post/80066867648/hello-world-we-are-18f",
+      "visits": "44",
+      "pageviews": "52",
+      "users": "42",
+      "pageviews_per_session": "1.1818181818181819",
+      "avg_session_duration": "41.36363636363637",
+      "exits": "44"
+    },
+    {
+      "landing_page": "/",
+      "visits": "17",
+      "pageviews": "27",
+      "users": "16",
+      "pageviews_per_session": "1.588235294117647",
+      "avg_session_duration": "35.23529411764706",
+      "exits": "17"
+    },
+    {
+      "landing_page": "/post/85434416767/18f-shows-what-is-possible-in-government-with",
+      "visits": "6",
+      "pageviews": "8",
+      "users": "5",
+      "pageviews_per_session": "1.3333333333333333",
+      "avg_session_duration": "51.833333333333336",
+      "exits": "6"
+    },
+    {
+      "landing_page": "/post/93226835135/18f-an-open-source-team",
+      "visits": "2",
+      "pageviews": "3",
+      "users": "2",
+      "pageviews_per_session": "1.5",
+      "avg_session_duration": "3.5",
+      "exits": "2"
+    },
+    {
+      "landing_page": "/post/81293178801/announcing-fbopen-government-opportunities-made",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "landing_page": "/post/85232393363/a-few-notes-on-notalonegov",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "landing_page": "/post/93415834296/working-in-public-from-day-1",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "landing_page": "/post/94543290971/the-contributors-guide-to-18f-code-for-the",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "landing_page": "/post/97827848353/getting-to-work-for-the-american-people",
+      "visits": "1",
+      "pageviews": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    }
+  ],
+  "totals": {
+    "visits": 74
+  },
+  "taken_at": "2016-10-17T16:11:27.274Z"
+}

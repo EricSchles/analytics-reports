@@ -1,0 +1,186 @@
+{
+  "name": "top-pages-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname,ga:pagePath,ga:pageTitle",
+    "metrics": [
+      "ga:pageviews",
+      "ga:sessions",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
+    ],
+    "sort": [
+      "-ga:pageviews"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Pages (30 Days)",
+    "description": "Last 30 days' top 20 pages, measured by page views, for all sites."
+  },
+  "data": [
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/80066867648/hello-world-we-are-18f",
+      "page_title": "18F — Hello, world! We are 18F.",
+      "pageviews": "48",
+      "visits": "44",
+      "users": "43",
+      "pageviews_per_session": "1.0909090909090908",
+      "avg_session_duration": "41.36363636363637",
+      "exits": "42"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/",
+      "page_title": "18F",
+      "pageviews": "23",
+      "visits": "17",
+      "users": "18",
+      "pageviews_per_session": "1.3529411764705883",
+      "avg_session_duration": "35.23529411764706",
+      "exits": "18"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/85434416767/18f-shows-what-is-possible-in-government-with",
+      "page_title": "18F — 18F Shows What Is Possible In Government With...",
+      "pageviews": "7",
+      "visits": "6",
+      "users": "5",
+      "pageviews_per_session": "1.1666666666666667",
+      "avg_session_duration": "51.833333333333336",
+      "exits": "5"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/page/3",
+      "page_title": "18F",
+      "pageviews": "3",
+      "visits": "0",
+      "users": "1",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/page/2",
+      "page_title": "18F",
+      "pageviews": "2",
+      "visits": "0",
+      "users": "1",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "0.0",
+      "exits": "0"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/85232393363/a-few-notes-on-notalonegov",
+      "page_title": "18F — A Few Notes on NotAlone.gov",
+      "pageviews": "2",
+      "visits": "1",
+      "users": "2",
+      "pageviews_per_session": "2.0",
+      "avg_session_duration": "0.0",
+      "exits": "2"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/93226835135/18f-an-open-source-team",
+      "page_title": "18F — 18F: An Open Source Team",
+      "pageviews": "2",
+      "visits": "2",
+      "users": "2",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "3.5",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/99384055853/18f-open-source-hack-series-midas",
+      "page_title": "18F — 18F Open Source Hack Series: Midas",
+      "pageviews": "2",
+      "visits": "0",
+      "users": "1",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "0.0",
+      "exits": "0"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/page/4",
+      "page_title": "18F",
+      "pageviews": "1",
+      "visits": "0",
+      "users": "1",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "0.0",
+      "exits": "0"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/81293178801/announcing-fbopen-government-opportunities-made",
+      "page_title": "18F — Announcing FBOpen: Government opportunities made...",
+      "pageviews": "1",
+      "visits": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/93415834296/working-in-public-from-day-1",
+      "page_title": "18F — Working In Public From Day 1",
+      "pageviews": "1",
+      "visits": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/94543290971/the-contributors-guide-to-18f-code-for-the",
+      "page_title": "18F — The Contributor's Guide to 18F: Code for the...",
+      "pageviews": "1",
+      "visits": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/post/97827848353/getting-to-work-for-the-american-people",
+      "page_title": "18F — Getting to work for the American people",
+      "pageviews": "1",
+      "visits": "1",
+      "users": "1",
+      "pageviews_per_session": "1.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    },
+    {
+      "domain": "18fblog.tumblr.com",
+      "page": "/tagged/18f",
+      "page_title": "18F",
+      "pageviews": "1",
+      "visits": "0",
+      "users": "1",
+      "pageviews_per_session": "0.0",
+      "avg_session_duration": "0.0",
+      "exits": "1"
+    }
+  ],
+  "totals": {
+    "visits": 74
+  },
+  "taken_at": "2016-10-17T15:56:07.899Z"
+}

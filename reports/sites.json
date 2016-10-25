@@ -1,0 +1,29 @@
+{
+  "name": "sites",
+  "query": {
+    "start-date": "14daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:hostname"
+    ],
+    "filters": "ga:sessions>0",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Participating hostnames.",
+    "description": "Participating hostnames over the last 30 days with at least 1 visit."
+  },
+  "data": [
+    {
+      "domain": "18fblog.tumblr.com"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-10-17T16:11:28.741Z"
+}
